@@ -1,0 +1,6 @@
+<div class="container">                          <!-- La carte blanche stylée par le CSS -->
+  <h1>Stupid Coaching</h1>                       <!-- Titre de la page -->
+  <p><%= @question %></p>                        <!-- Affiche la question posée par l'utilisateur -->
+  <p class="answer"><%= @answer %></p>           <!-- Affiche la réponse du coach -->
+  <%= link_to "Ask a new question", ask_path %>  <!-- Lien pour revenir au formulaire -->
+</div>
